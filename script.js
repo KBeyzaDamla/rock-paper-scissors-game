@@ -1,11 +1,9 @@
 let winMsg = 'Victory';
 let loseMsg = 'Crushing Defeat';
 let tieMsg = 'Tie';
-
 let statusDisplay = document.querySelector('#status-head');
 let moveDisplays = document.querySelectorAll('.move-display h2');
 let buttons = document.querySelectorAll('button');
-
 let moveList = ['Rock', 'Paper', 'Scissors'];
 
 function startGame() {
